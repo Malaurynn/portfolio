@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300&display=swap');
+
+#root {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.titre{
+  text-align: center;
+}
+
+h1 , h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, a, span, label, input, button{
+  font-family: 'Roboto', sans-serif;
+}
+
+.titre h1 {
+  font-weight: normal;
+}
+
+.titre h4{
+  font-weight: normal;
+  margin-bottom: 20px;
+}

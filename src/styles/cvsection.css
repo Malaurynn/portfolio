@@ -1,0 +1,11 @@
+.cv-section{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 80vw;
+    left:10%;
+    position: absolute;
+    z-index: 1;
+    
+}
+

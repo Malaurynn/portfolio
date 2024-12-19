@@ -1,0 +1,37 @@
+.card-comp {
+  border-radius: 8px;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.comp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centre verticalement le contenu */
+  width: 100%; /* Ajuste la largeur du conteneur principal */
+  margin: 3rem 0 1rem 0;
+}
+
+.comp {
+  width: 20%; /* Ajuste la largeur de l'image selon tes besoins */
+  height: auto;
+  border-radius: 8px;
+}
+
+.icones img{
+  margin: 2em;
+  padding: 2rem;
+  width: 40px;
+  background: none;
+  background-image: transparent;
+  background-color: rgba(234, 233, 233, 0.8);
+  border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+  .body-comp {
+    margin-top: 0%;
+    box-sizing: border-box;
+  } 
+  
+}

@@ -1,0 +1,130 @@
+.contact {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 6px 2px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+  
+  .left-contener {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background: #f8fafc;
+    border-radius: 0.75rem;
+    height: fit-content;
+  }
+  
+  .left-contener > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .left-contener > div:hover {
+    transform: translateY(-2px);
+  }
+  
+  .left-contener img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .left-contener p {
+    color: #334155;
+    font-size: 0.95rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+  
+  form h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+  
+  form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #475569;
+  }
+  
+  .field,
+  textarea {
+    padding: 0.75rem 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.5rem;
+    background: #f8fafc;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .field:focus,
+  textarea:focus {
+    outline: none;
+    border-color: #737578;
+    box-shadow: 0 0 0 3px rgb(59 130 246 / 0.1);
+  }
+  
+  textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.75rem 2rem;
+    background: #737578;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    align-self: flex-start;
+  }
+  
+  button:hover {
+    background: #737578;
+  }
+  
+  @media (max-width: 768px) {
+    .contact {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+  
+    .left-contener {
+      padding: 1rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }

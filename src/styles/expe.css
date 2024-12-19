@@ -1,0 +1,100 @@
+/* Style global pour aligner les carrousels dans des cards */
+.caroussel1, .caroussel2, .caroussel3 {
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+
+.card-container-expe{
+  display: flex;
+  flex-wrap: wrap; /* Permet aux items de passer à la ligne si nécessaire */
+  justify-content: space-between; /* Espace entre les cards */
+  gap: 20px; /* Espacement entre les cards */
+  margin: 20px auto;
+  max-width: 1200px; /* Largeur maximale du conteneur */
+}
+
+.card-container-expe a {
+  text-decoration: none;
+  color: inherit;
+  background-color: #d6d6d6;
+  padding: 4px;
+  border-radius: 1rem;
+  margin: 10rem;
+}
+
+/* Card container */
+.card-projets {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 600px; /* Largeur maximale pour chaque card */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 calc(48% - 10px); /* Ajuste la largeur pour deux cards par ligne */
+  max-width: 50%; /* Empêche de dépasser la moitié de la ligne */
+  box-sizing: border-box; /* Inclut les marges et bordures dans la largeur */
+}
+
+/* Style pour le carrousel dans chaque card */
+.card .carousel-root {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* Texte sous le carrousel */
+.card-text {
+  padding: 20px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.card-text a {
+  display: inline-block; /* Rend les liens comme des blocs inline pour mieux gérer les marges */
+  text-decoration: none; /* Supprime le soulignement */
+  color: white;
+  background-color: #000000; /* Couleur de fond des boutons */
+  padding: 5px 20px;
+  border-radius: 5px; /* Coins arrondis pour un effet bouton */
+  margin: 5px ; /* Ajoute de l'espacement autour des boutons */
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.card-text a:hover {
+  background-color: #4f4f4f; /* Couleur de fond au survol */
+}
+
+/* Pour s'assurer que le carrousel occupe tout l'espace */
+.carousel .slide img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Légende des images */
+.carousel .legend {
+  font-size: 14px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 768px){
+  .card-container-expe {
+    flex-direction: column; /* Passe en colonne pour les écrans plus petits */
+  }
+  .card-projets {
+    flex: 1 1 100%; /* Prend toute la largeur de l'écran */
+    max-width: 100%; /* Largeur maximale de 100% */
+  }
+}

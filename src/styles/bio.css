@@ -1,0 +1,55 @@
+.bio-container{
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(234, 233, 233, 0.8);
+}
+.card-bio{
+    display: flex;
+    justify-content :space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.cvtelechargement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.bio-container img{
+    width: 16%;
+    border-radius: 7%;
+}
+
+.bio-container a{
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    justify-content: left;
+    padding: 10px 20px;
+    margin-top: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .card-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bio-container img{
+        display: none;
+    }
+}
