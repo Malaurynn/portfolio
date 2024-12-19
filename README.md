@@ -31,7 +31,7 @@ Je suis développeur web passionné par la création d'applications interactives
 
 ## Contact
 
-Vous pouvez me contacter via [mon email](mailto:malaury.nn1@gmail.com) ou sur [LinkedIn](https://www.linkedin.com/in/malaurynn).
+Vous pouvez me contacter via [mon email](mailto:malaury.nn1@gmail.com) ou sur [LinkedIn](https://www.linkedin.com/in/malaury-nezan-a21959243/).
 
 ---
 
