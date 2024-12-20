@@ -32,7 +32,7 @@ const data3 = [
 
 function Expe() {
   return (
-    <div>
+    <div className="cards_projects">
       <div className="title_project">
         <h1>Projet</h1>
         <p>Explorez mes réalisations récentes.</p>

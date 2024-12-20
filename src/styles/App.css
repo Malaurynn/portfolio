@@ -41,6 +41,18 @@ p, a, span, label, input, button{
   background-color: black;
   color: white;
 }
+.app.dark-mode .bio-container{
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+.app.dark-mode .card-projets{
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+.app.dark-mode .card-text{
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
 
 .expe.dark-mode .card-projets {
   background-color: rgb(0, 0, 0);
@@ -51,6 +63,9 @@ p, a, span, label, input, button{
   background-color: rgb(0, 0, 0);
   color: white;
 }
+.app.dark-mode .contact label {
+  color: white;
+}
 
 .app.dark-mode .contact button{
   background-color: rgb(3, 3, 3);
@@ -58,10 +73,11 @@ p, a, span, label, input, button{
 }
 
 .app.dark-mode .contact {
-  background-color: rgb(140, 140, 140);
+  background-color: rgb(45, 45, 45);
 }
+
 .app.dark-mode .left-contener {
-  background-color: rgb(140, 140, 140);
+  background-color: rgb(45, 45, 45);
   color: rgb(255, 255, 255);
 }
 
