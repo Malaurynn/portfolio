@@ -25,11 +25,15 @@ const Contacts = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
+  
     const { VITE_EMAILJS_SERVICE_ID, VITE_EMAILJS_TEMPLATE_ID, VITE_EMAILJS_PUBLIC_KEY } = import.meta.env;
-
-
-    // Utilisation d'EmailJS pour envoyer l'email
+  
+    if (!VITE_EMAILJS_SERVICE_ID || !VITE_EMAILJS_TEMPLATE_ID || !VITE_EMAILJS_PUBLIC_KEY) {
+      console.error("Les variables d'environnement EmailJS ne sont pas configurées.");
+      alert("Erreur : Les variables d'environnement EmailJS sont manquantes.");
+      return;
+    }
+  
     emailjs
       .send(
         VITE_EMAILJS_SERVICE_ID,
@@ -47,8 +51,7 @@ const Contacts = () => {
           alert("Une erreur est survenue. Veuillez réessayer.");
         }
       );
-
-    // Réinitialiser le formulaire
+  
     setFormData({
       name: "",
       firstName: "",
