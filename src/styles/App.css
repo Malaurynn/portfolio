@@ -89,3 +89,9 @@ p, a, span, label, input, button{
   padding: 10px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+  .toggle-dark-mode {
+    width: 60px;
+  }
+}

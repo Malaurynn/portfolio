@@ -24,7 +24,7 @@ const Bio = () => {
         </section>
         <div className="cvtelechargement">
           <a href={cv} target="_blank" rel="noreferrer">
-            Télécharger mon cv
+            Télécharger mon CV
           </a>
         </div>
       </div>

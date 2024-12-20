@@ -8,7 +8,7 @@ import github from "./github.png"
 import figma from "./figma.png"
 import terminal from "./terminal.png"
 import express from "./express.png"
-import chat from "./chat.png"
+import chatGpt from "./chatGpt.png"
 import procreat from "./procreact.jpg"
 import adobe from "./adobe.png"
 import mysql from "./mysql.png"
@@ -21,7 +21,7 @@ const skills = [
        {name:"TERMINAL", icon:terminal},
        {name:"GIT", icon:git},
        {name:"GITHUB", icon:github},
-       {name:"CHAT", icon:chat},
+       {name:"CHATGPT", icon:chatGpt},
        {name:"FIGMA", icon:figma},
        {name:"PROCREATE", icon:procreat},
        {name:"ADOBE", icon:adobe},

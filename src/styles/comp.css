@@ -1,37 +1,52 @@
-.card-comp {
-  border-radius: 8px;
-  padding: 16px;
-  overflow: hidden;
-}
-
+/* Styles pour le conteneur principal */
 .comp-container {
   display: flex;
-  justify-content: center;
-  align-items: center; /* Centre verticalement le contenu */
-  width: 100%; /* Ajuste la largeur du conteneur principal */
+  align-items: center;
+  width: 100%;
   margin: 3rem 0 1rem 0;
 }
 
-.comp {
-  width: 20%; /* Ajuste la largeur de l'image selon tes besoins */
-  height: auto;
-  border-radius: 8px;
+.icones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.icones img{
-  margin: 2em;
-  padding: 2rem;
-  width: 40px;
-  background: none;
-  background-image: transparent;
+/* Styles pour les cartes */
+.card-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: rgba(234, 233, 233, 0.8);
-  border-radius: 5%;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 100px; /* Ajustez la taille selon vos besoins */
+  height: 80px; /* Ajustez la taille selon vos besoins */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card-comp:hover {
+  transform: scale(1.05);
+}
+
+/* Styles pour les icônes */
+.icone {
+  width: 50px; /* Ajustez la taille selon vos besoins */
+  height: 50px; /* Ajustez la taille selon vos besoins */
+  margin-bottom: 0.5rem;
+}
+
+/* Styles pour les noms des compétences */
+.skill-name {
+  font-size: 0.9rem;
+  color: black;
 }
 
 @media (max-width: 768px) {
   .body-comp {
     margin-top: 0%;
     box-sizing: border-box;
-  } 
-  
+  }
 }
