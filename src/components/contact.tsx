@@ -62,7 +62,7 @@ const Contacts = () => {
   return (
     <section className="contact">
       <div className="left-contener">
-        <div>
+        <div id="Contact">
           <img src={mail} alt="email" />
           <p>malaury.nn1@gmail.com</p>
         </div>

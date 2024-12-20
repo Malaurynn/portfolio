@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <a href="#Biographie">Biographie</a>
-      <a href="#Competances">Compétences</a>
-      <a href="#Expériences">Expériences</a>
+      <a href="#Compétances">Compétences</a>
+      <a href="#Projets">Expériences</a>
       <a href="#Contact">Contact</a>
       <a
         href="https://www.linkedin.com/in/malaury-nezan-a21959243/"
