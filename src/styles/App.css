@@ -29,3 +29,47 @@ p, a, span, label, input, button{
   font-weight: normal;
   margin-bottom: 20px;
 }
+
+/* Styles pour le mode clair */
+.app {
+  background-color: white;
+  color: black;
+}
+
+/* Styles pour le mode sombre */
+.app.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.expe.dark-mode .card-projets {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.app.dark-mode .contact {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.app.dark-mode .contact button{
+  background-color: rgb(3, 3, 3);
+  color: rgb(255, 255, 255);
+}
+
+.app.dark-mode .contact {
+  background-color: rgb(140, 140, 140);
+}
+.app.dark-mode .left-contener {
+  background-color: rgb(140, 140, 140);
+  color: rgb(255, 255, 255);
+}
+
+/* Bouton pour basculer entre les modes */
+.toggle-dark-mode {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}

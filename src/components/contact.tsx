@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import tel from "../assets/tel.png";
 import loca from "../assets/loca.png";
 import mail from "../assets/mail.png";
 import "../styles/contact.css";
@@ -63,10 +62,6 @@ const Contacts = () => {
   return (
     <section className="contact">
       <div className="left-contener">
-        <div>
-          <img src={tel} alt="telephone" />
-          <p>06 82 74 27 99</p>
-        </div>
         <div>
           <img src={mail} alt="email" />
           <p>malaury.nn1@gmail.com</p>

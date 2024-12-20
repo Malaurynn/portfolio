@@ -109,7 +109,7 @@
   }
   
   button:hover {
-    background: #737578;
+    background: #000000;
   }
   
   @media (max-width: 768px) {
