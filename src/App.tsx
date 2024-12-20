@@ -20,7 +20,7 @@ function App() {
     <div className={darkMode ? "app dark-mode" : "app"}>
       <Navbar />
       <button onClick={toggleDarkMode} className="toggle-dark-mode">
-        {darkMode ? "Mode Clair" : "Mode Sombre"}
+        {darkMode ? "☼ Mode clair" : "☾ Mode sombre"}
       </button>
       <div className="titre">
         <h1>Malaury Nezan | Transformez vos idées en expériences visuelles</h1>
