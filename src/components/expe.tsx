@@ -100,6 +100,14 @@ function Expe() {
           >
             Lien vers le dépôt Github
           </a>
+          <br />
+          <a
+            href="https://re-connect-hackthon.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Lien vers site
+          </a>
         </div>
       </div>
     </div>

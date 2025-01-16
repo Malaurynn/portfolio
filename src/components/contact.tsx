@@ -64,7 +64,7 @@ const Contacts = () => {
       <div className="left-contener">
         <div id="Contact">
           <img src={mail} alt="email" />
-          <p>malaury.nn1@gmail.com</p>
+          <p>malaurynezan.pro@gmail.com</p>
         </div>
         <div>
           <img src={loca} alt="localisation" />
